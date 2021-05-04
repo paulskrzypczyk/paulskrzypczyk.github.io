@@ -143,7 +143,7 @@ scholar:
   last_name: Skrzypczyk
   first_name: [Paul, P.]
 
-  style: american-physics-society
+  style: apa
   locale: en
 
   source: /_bibliography/
