@@ -3,11 +3,11 @@
 
 <div class="row">
   <div class="col-sm-2 abbr">
-  {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+  {% if entry.journal %}
+    {% if site.data.venues[entry.journal] %}
+    <abbr class="badge"><a href="{{site.data.venues[entry.journal].url}}" target="_blank">{{entry.journal}}</a></abbr>
     {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
+    <abbr class="badge">{{entry.journal}}</abbr>
     {% endif %}
   {% endif %}
   </div>
@@ -69,12 +69,9 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        {{{entry.journal}} {{entry.volume}}, {{entry.pages}} ({{entry.year}})
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
-      {% endif %}
-      {% if entry.year %}
-        {{entry.year}}
       {% endif %}
       </div>
     {% endif %}
