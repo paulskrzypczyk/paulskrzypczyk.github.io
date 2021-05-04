@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 description: Royal Society University Research Fellow and Lecturer | <a href="http://www.bristol.ac.uk/physics/">School of Physics</a> | <a href="http://www.bristol.ac.uk">University of Bristol</a>, UK
 
