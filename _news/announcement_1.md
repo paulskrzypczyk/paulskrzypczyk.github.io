@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-05-04
 inline: true
 ---
 
-A simple inline announcement.
+Awarded 3 year extension to Royal Society University Research Fellowship
