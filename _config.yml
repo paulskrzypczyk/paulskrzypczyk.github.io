@@ -13,7 +13,7 @@ footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-icon: 🔥 # the emoji used as the favicon
+icon: |ψ〉 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
@@ -42,7 +42,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: paulskrzypczyk# your GitHub user name
+github_username: paulskrzypczyk # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: PaulSkrzypczyk # your Twitter handle
 linkedin_username: # your LinkedIn user name
