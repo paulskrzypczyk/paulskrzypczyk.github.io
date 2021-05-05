@@ -47,19 +47,19 @@
                 {{author.first}} {{author.last}}, 
               {% else %}
                 {% if coauthor_url %}
-                  <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+                  <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
                 {% else %}
-                  {{author.first}},{{author.last}} ,
+                  {{author.first}} {{author.last}},
                 {% endif %}
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and {{author.first}} {{author.last}} 
+                and {{author.first}} {{author.last}}, 
               {% else %}
                 {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+                  and <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}},</a>
                 {% else %}
-                  and {{author.first}} {{author.last}} 
+                  and {{author.first}} {{author.last}}, 
                 {% endif %}
               {% endif %}
             {% endunless %}
@@ -69,7 +69,7 @@
 
       <div class="periodical">
       {% if entry.type == "article" %}
-        {{{entry.journal}} {{entry.volume}}, {{entry.pages}} ({{entry.year}})
+        {{{entry.journal}} <b>{{entry.volume}}</b>, {{entry.pages}} ({{entry.year}})
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
       {% endif %}
