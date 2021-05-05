@@ -54,7 +54,7 @@
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and {{author.first}} {{author.last}} 
+                {{author.first}} {{author.last}} 
               {% else %}
                 {% if coauthor_url %}
                   <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}},</a>
