@@ -54,12 +54,12 @@
               {% endif %}
             {% else %}
               {% if author_is_self %}
-                and {{author.first}} {{author.last}}, 
+                and {{author.first}} {{author.last}} 
               {% else %}
                 {% if coauthor_url %}
-                  and <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}},</a>
+                  <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}},</a>
                 {% else %}
-                  and {{author.first}} {{author.last}}, 
+                  {{author.first}} {{author.last}} 
                 {% endif %}
               {% endif %}
             {% endunless %}
