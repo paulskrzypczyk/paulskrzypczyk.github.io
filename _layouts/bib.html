@@ -2,7 +2,7 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-3 abbr">
   {% if entry.journal %}
     {% if site.data.venues[entry.journal] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.journal].url}}" target="_blank">{{entry.journal}}</a></abbr>
@@ -10,14 +10,12 @@
     <abbr class="badge">{{entry.journal}}</abbr>
     {% endif %}
   {% endif %}
-
   {% if entry.highlight %}
     <abbr class="badge">{{entry.highlight}}</abbr>
   {% endif %}
-
   </div>
 
-  <div id="{{entry.key}}" class="col-sm">
+  <div id="{{entry.key}}" class="col-sm-8">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
