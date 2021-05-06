@@ -8,9 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>H. H. Wills Physics Laboratory</p>
-    <p>Tyndall Avenue</p>
-    <p>Bristol, BS8 1TL</p>
+    <p>H. H. Wills Physics Laboratory,</p>
+    <p>Tyndall Avenue,</p>
+    <p>Bristol, BS8 1TL,</p>
     <p>United Kingdom</p>
 
 news: true  # includes a list of news items
