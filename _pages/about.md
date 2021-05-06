@@ -19,3 +19,11 @@ social: false # includes social icons at the bottom of the page
 ---
 
 I am theoretical quantum physicist.
+
+My primary research interest is quantum theory, in particular, the renewed understanding that has been gained with the advent of quantum information. I am interested in many aspects of quantum theory, however, the main sub-areas that I am mostly focused on are quantum nonlocality, quantum measurements, and quantum thermodynamics. 
+
+In quantum theory the way actions in one place effect far-away places is much more intricate and fascinating than in classical physics. In particular, quantum theory allows for 'nonlocal' effects, whereby actions in one place seemingly affect another distant place instantaneously, although this can only ever be confirmed later in time. Obtaining a deep understanding of such a counter-intuitive phenomenon is not only crucial in order to really understand quantum theory and the way the microscopic world behaves, but is also important for applications in quantum information processing, where it opens up new possibilities which are impossible using only classical physics.
+
+The process of measurement plays much more fundamental and prominent role in quantum theory compared to much of classical physics. It is through the process of measurement that we gain information about the microscopic world, and in quantum theory this measurement necessarily affects the system measured. I am particularly interested in this information gain, and also affects related to the fact that not all properties of a system can be measured simultaneously in quantum theory, know as measurement incompatibility. 
+
+The laws of thermodynamics are some of the most prevalent in the whole of physics. It is fascinating to understand to what extent they apply at the quantum level, especially for small systems - far from their original realm of applicability. Pursuing this line of investigation is not only a way to probe the limits of quantum theory and thermodynamics, but is also relevant for future quantum technologies, where both quantum and thermal effects will ultimately both play a role. 
