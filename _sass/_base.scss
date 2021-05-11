@@ -503,39 +503,3 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
-
-progress {
-    /* Reset the appearance */
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-  
-    /* Get rid of the default border in Firefox/Opera. */
-    border: none;
-  
-    /* Progress bar container for Firefox/IE10+ */
-    background-color: transparent;
-  
-    /* Progress bar value for IE10+ */
-    color: $theme-color;
-}
-
-progress::-webkit-progress-bar {
-    background-color: transparent;
-}
-  
-progress::-webkit-progress-value {
-    background-color: $theme-color;
-}
-  
-progress::-moz-progress-bar {
-    background-color: $theme-color;
-}
-
-.progress-container {
-    background-color: transparent;
-}
-
-.progress-bar {
-    background-color: $theme-color;
-}
