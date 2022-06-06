@@ -6,7 +6,7 @@ description: Royal Society University Research Fellow and Lecturer | <a href="ht
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: 237A6480 - Copy.jpg
   address: >
     <p>H. H. Wills Physics Laboratory,</p>
     <p>Tyndall Avenue,</p>
