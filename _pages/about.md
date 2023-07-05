@@ -7,11 +7,7 @@ description: Associate Professor | Royal Society University Research Fellow | <a
 profile:
   align: right
   image: 237A6480 - Copy.jpg
-  address: >
-    <p>H. H. Wills Physics Laboratory,</p>
-    <p>Tyndall Avenue,</p>
-    <p>Bristol, BS8 1TL,</p>
-    <p>United Kingdom</p>
+  address: 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
