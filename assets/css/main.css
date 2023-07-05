@@ -17,10 +17,7 @@
   --global-footer-link-color: #ffffff;
   --global-distill-app-color: #828282;
 }
-:root .fa-sun {
-  display: none;
-}
-:root .fa-moon {
+:root .fa-chalkboard {
   padding-left: 10px;
   padding-top: 12px;
   display: block;
@@ -38,13 +35,10 @@ html[data-theme=dark] {
   --global-footer-link-color: #000000;
   --global-distill-app-color: #e8e8e8;
 }
-html[data-theme=dark] .fa-sun {
+html[data-theme=dark] .fa-chalkboard {
   padding-left: 10px;
   padding-top: 12px;
   display: block;
-}
-html[data-theme=dark] .fa-moon {
-  display: none;
 }
 
 /******************************************************************************
