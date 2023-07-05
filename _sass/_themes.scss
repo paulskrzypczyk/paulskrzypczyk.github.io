@@ -14,10 +14,7 @@
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
 
-  .fa-sun {
-    display : none;
-  }
-  .fa-moon {
+  .fa-chalkboard {
     padding-left: 10px;
     padding-top: 12px;
     display : block;
@@ -36,12 +33,9 @@ html[data-theme='dark'] {
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
 
-  .fa-sun {
+  .fa-chalkboard {
     padding-left: 10px;
     padding-top: 12px;
     display : block;
-  }
-  .fa-moon {
-    display : none;
   }
 }
