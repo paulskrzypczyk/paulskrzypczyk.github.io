@@ -186,8 +186,8 @@ bootstrap:
   integrity:
     css: "sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
     js: "sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ=="
-# fontawesome:
-#  version: "6.4.0"
+fontawesome:
+  version: "6.7.2"
 #  integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
 jquery:
   version: "3.5.1"
