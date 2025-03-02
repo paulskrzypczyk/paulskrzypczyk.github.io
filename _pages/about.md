@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Associate Professor | Royal Society University Research Fellow | <a href="https://cifar.ca/cifar-azrieli-global-scholars/">CIFAR Azrieli Global Scholar</a> | <a href="http://www.bristol.ac.uk/physics/">School of Physics</a> | <a href="http://www.bristol.ac.uk">University of Bristol</a>, UK
+description: Associate Professor | <a href="http://www.bristol.ac.uk/physics/">School of Physics</a> | <a href="http://www.bristol.ac.uk">University of Bristol</a>, UK | Former Royal Society University Research Fellow | Former <a href="https://cifar.ca/cifar-azrieli-global-scholars/">CIFAR Azrieli Global Scholar</a>
 
 profile:
   align: right
