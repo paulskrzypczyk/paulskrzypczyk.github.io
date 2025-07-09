@@ -44,7 +44,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: paulskrzypczyk # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: PaulSkrzypczyk # your Twitter handle
+bluesky_username: paulskrzypczyk.bsky.social
 linkedin_username: paul-skrzypczyk-502352236 # your LinkedIn user name
 scholar_userid: ThaToWEAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-9343-9041 # your ORCID ID
@@ -187,8 +187,8 @@ bootstrap:
     css: "sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
     js: "sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ=="
 fontawesome:
-  version: "6.4.0"
-  integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
+  version: "6.7.2"
+#  integrity: "sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8="
 jquery:
   version: "3.5.1"
   integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
