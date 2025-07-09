@@ -3,6 +3,7 @@ layout: post
 date: 2023-06-30
 inline: true
 ---
+**Papers**
 
 Very pleased to have started to get a backlog of papers finally out:
 - [Maxwell's Demon walks into Wall Street: Stochastic Thermodynamics meets Expected Utility Theory](https://arxiv.org/abs/2306.00449) with Andres Ducuara, Francesco Buscemi, Peter Sidajaya and Valerio Scarani

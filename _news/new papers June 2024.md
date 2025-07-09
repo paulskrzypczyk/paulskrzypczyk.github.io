@@ -3,7 +3,7 @@ layout: post
 date: 2024-06-28
 inline: true
 ---
-Papers\
+**Papers**
 
 Very pleased to once again getting a backlog of papers out this year: 
 - [Locally inaccessible hidden quantum correlations](https://doi.org/10.48550/arXiv.2406.03945) with Andres Ducuara and Cristian Susa. This is one of a few results Andres obtained during his PhD that we are finally getting round to publishing. 
