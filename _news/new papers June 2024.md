@@ -3,6 +3,7 @@ layout: post
 date: 2024-06-28
 inline: true
 ---
+Papers\
 
 Very pleased to once again getting a backlog of papers out this year: 
 - [Locally inaccessible hidden quantum correlations](https://doi.org/10.48550/arXiv.2406.03945) with Andres Ducuara and Cristian Susa. This is one of a few results Andres obtained during his PhD that we are finally getting round to publishing. 
@@ -14,4 +15,4 @@ Very pleased to once again getting a backlog of papers out this year:
     - Update: This was published in [Phys. Rev. A](https://doi.org/10.1103/PhysRevA.110.042212)
 - [Revising the quantum work fluctuation framework to encompass energy conservation](https://arxiv.org/abs/2406.18632v1) with Giulia Rubino and Karen Hovhannisyan. My first paper with Giulia! 
 There will be a few more to come this summer, so I'll post an update later.  
-    
+    - Update: This was published in [npj Quantum Information](https://doi.org/10.1038/s41534-025-01053-6)
