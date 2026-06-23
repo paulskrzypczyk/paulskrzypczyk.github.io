@@ -10,7 +10,8 @@ Very pleased to once again getting a backlog of papers out this year:
     - Update: This was published in [Phys. Rev. A](https://doi.org/10.1103/PhysRevA.110.022435).
 - [Operational interpretation of the Choi rank through exclusion tasks](https://doi.org/10.48550/arXiv.2406.08360) with Ben Stratton and Chung-Yun Hsieh. Ben's 2nd paper during his PhD, which I think is a very nice result about quantum channels. 
     - Update: This was published in [Phys. Rev. A](https://doi.org/10.1103/PhysRevA.110.L050601) as a Letter.
-- [Activation of post-quantum steering](https://doi.org/10.48550/arXiv.2406.10570) with Ana Belen Sainz and Matty Hoban. This is a ridiculously overdue paper, which I'm delighted to finally have out. 
+- [Activation of post-quantum steering](https://doi.org/10.48550/arXiv.2406.10570) with Ana Belen Sainz and Matty Hoban. This is a ridiculously overdue paper, which I'm delighted to finally have out.
+    - Update: This was published in [New J. Phys.](https://doi.org/10.1088/1367-2630/ae21fe). 
 - [Activation of postquantumness in bipartite generalized Einstein-Podolsky-Rosen scenarios](https://doi.org/10.48550/arXiv.2406.10697) with Beata Zjawin, Matty Hoban and Ana Belen Sainz. A generalisation of the above paper, which we put out at the same time. Beata did all of the hard work here!
     - Update: This was published in [Phys. Rev. A](https://doi.org/10.1103/PhysRevA.110.042212)
 - [Revising the quantum work fluctuation framework to encompass energy conservation](https://arxiv.org/abs/2406.18632v1) with Giulia Rubino and Karen Hovhannisyan. My first paper with Giulia! 
