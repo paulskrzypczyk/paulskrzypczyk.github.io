@@ -12,6 +12,9 @@
               {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
             {% else %}
               <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+              {% if item.summary %}
+                <div class="news-summary">{{ item.summary | markdownify | remove: '<p>' | remove: '</p>' | emojify }}</div>
+              {% endif %}
             {% endif %}
           </td>
         </tr>

@@ -4,6 +4,7 @@ title: Bristol Teaching Awards nomination
 date: 2026-03-23
 inline: false
 related_posts: false
+summary: Nominated for the *Inspiring and Engaging Teaching Award* in this year's *Student Teaching Awards* — click through for the full citation.
 ---
 
 I'm delighted to have received a nomination in this year's *Student Teaching Awards* (formerly the *Bristol Teaching Awards*), in the category of the *Inspiring and Engaging Teaching Award*. I'm hugely grateful to the student who took the time to write such a thoughtful and generous nomination — it genuinely means a great deal. The full citation, structured around the award's four criteria, is below.

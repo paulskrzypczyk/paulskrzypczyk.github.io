@@ -176,6 +176,13 @@ a, table.table a {
   color: var(--global-text-color);
 }
 
+.news .news-summary {
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+  opacity: 0.8;
+  margin-top: 0.2rem;
+}
+
 // Social (bottom)
 
 .social {
