@@ -1,0 +1,74 @@
+# -----------------------------------------------------------------------------
+# Talks (rendered on the Teaching page). Newest first.
+#
+#   title:   talk title
+#   event:   where it was given (markdown allowed, e.g. links)
+#   year:    year given
+#   slides:  link to the PDF (usually in github.com/paulskrzypczyk/Talks)
+#   video:   optional link to a recording
+#   papers:  optional list of {title, url} the talk is based on
+# -----------------------------------------------------------------------------
+
+- title: Using one measurement to reproduce another
+  event: "[New Perspectives on Measurements in Quantum Theory: Emergence of Classicality](https://www.tcd.ie/physics/conferences/new-perspectives-on-measurements-in-quantum-theory/), Dublin"
+  year: 2024
+  slides: https://github.com/paulskrzypczyk/Talks/blob/master/Measurement%20Reproduction%20Emergence%20Of%20Classicality.pdf
+  papers:
+    - title: How to use arbitrary measuring devices to perform almost perfect measurements
+      url: https://doi.org/10.48550/arXiv.2203.02593
+
+- title: Maxwell's Demon walks into Wall Street
+  event: Group meeting, University of Bristol
+  year: 2023
+  slides: https://github.com/paulskrzypczyk/Talks/blob/master/Maxwell%20Demon%20Talk.pdf
+  papers:
+    - title: "Maxwell's Demon walks into Wall Street: Stochastic Thermodynamics meets Expected Utility Theory"
+      url: https://doi.org/10.1103/PhysRevLett.131.197103
+
+- title: Quantum betting tasks
+  event: "[Third Kyoto Workshop on Quantum Information, Computation, and Foundations](https://www2.yukawa.kyoto-u.ac.jp/~qicf22/); also given as a seminar at UCL"
+  year: 2022
+  slides: https://github.com/paulskrzypczyk/Talks/blob/master/Quantum%20Betting.pdf
+  papers:
+    - title: Characterization of quantum betting tasks in terms of Arimoto mutual information
+      url: https://doi.org/10.1103/PRXQuantum.3.020366
+
+- title: Using one measurement to reproduce another
+  event: CIFAR Quantum Information Science program meeting
+  year: 2022
+  slides: https://github.com/paulskrzypczyk/Talks/blob/master/Measurement%20Reproduction.pdf
+  papers:
+    - title: How to use arbitrary measuring devices to perform almost perfect measurements
+      url: https://doi.org/10.48550/arXiv.2203.02593
+
+- title: All states are universal catalysts in quantum thermodynamics
+  event: "[Thermodynamics and Information in the Quantum Regime (TIQuR 2021)](https://www.tiqur2021.com/home)"
+  year: 2021
+  slides: https://github.com/paulskrzypczyk/Talks/blob/master/Tiqur%202021%20Universal%20Catalysts.pdf
+  papers:
+    - title: All states are universal catalysts in quantum thermodynamics
+      url: https://doi.org/10.1103/PhysRevX.11.011061
+
+- title: Linking resource quantifiers & operational tasks in quantum information theory
+  event: CTP Quantum Information Days 2020(+1), Warsaw
+  year: 2021
+  slides: https://github.com/paulskrzypczyk/Talks/blob/master/Linking%20Resouce%20Quantifiers%20-%20QID2020.pdf
+  video: https://www.youtube.com/watch?v=4DkIIbe4brg
+  papers:
+    - title: Robustness of measurement, discrimination games, and accessible information
+      url: https://doi.org/10.1103/PhysRevLett.122.140403
+    - title: Operational interpretation of weight-based resource quantifiers in convex quantum resource theories
+      url: https://doi.org/10.1103/PhysRevLett.125.110401
+
+- title: The resource theory approach to quantum thermodynamics
+  event: Quantum Eigenfunctions and Thermalization, Bristol
+  year: 2018
+  slides: https://github.com/paulskrzypczyk/Talks/blob/master/resource-theory-overview.pdf
+
+- title: Quantum teleportation from the perspective of nonlocality
+  event: Trustworthy Quantum Information (TyQI), Paris
+  year: 2017
+  slides: https://github.com/paulskrzypczyk/Talks/blob/master/Teleportation%20-%20TyQI%202017.pdf
+  papers:
+    - title: All entangled states can demonstrate non-classical teleportation
+      url: https://doi.org/10.1103/PhysRevLett.119.110501

@@ -1,0 +1,244 @@
+# -----------------------------------------------------------------------------
+# CV page data  (rendered by _pages/cv.md)
+#
+# pdf:       optional path/URL to a downloadable PDF CV (button hidden if blank),
+#            e.g. /assets/pdf/Skrzypczyk_CV.pdf
+# sections:  each has a heading and a list of entries:
+#              date:    left-hand column (e.g. "2018 – 2022")
+#              title:   bold part
+#              detail:  normal text after the title
+#              note:    smaller, muted line underneath
+#            `text:` can be used instead of `entries:` for a free-text section
+#            (markdown allowed).
+# -----------------------------------------------------------------------------
+
+pdf: ""
+
+sections:
+
+  - heading: Positions
+    entries:
+      - date: 2025 –
+        title: Professor of Theoretical Physics
+        detail: School of Physics, University of Bristol
+      - date: 2024 – 2025
+        title: Associate Professor
+        detail: School of Physics, University of Bristol
+      - date: 2022 – 2024
+        title: Associate Professor and Royal Society University Research Fellow
+        detail: School of Physics, University of Bristol
+      - date: 2018 – 2022
+        title: Lecturer and Royal Society University Research Fellow
+        detail: School of Physics, University of Bristol
+      - date: 2016 – 2018
+        title: Royal Society University Research Fellow
+        detail: School of Physics, University of Bristol
+      - date: 2015 – 2016
+        title: Senior Postdoctoral Research Associate
+        detail: School of Physics, University of Bristol
+      - date: 2013 – 2015
+        title: ICFOnest (Marie Curie COFUND) Postdoctoral Fellow
+        detail: ICFO – The Institute of Photonic Sciences, Barcelona
+      - date: 2011 – 2013
+        title: Postdoctoral Research Associate
+        detail: DAMTP, University of Cambridge
+
+  - heading: Education
+    entries:
+      - date: 2007 – 2011
+        title: PhD in Physics
+        detail: University of Bristol
+        note: "Thesis: Aspects of quantum non-locality and thermodynamics. Supervisor: Prof. Sandu Popescu"
+      - date: 2003 – 2007
+        title: MPhys in Theoretical Physics
+        detail: University of Sussex
+        note: First Class Honours
+
+  - heading: Awards and honours
+    entries:
+      - date: 2024
+        title: Graduates' Lecturer of the Year
+        detail: Chaos (Bristol physics society)
+      - date: 2022
+        title: CIFAR Azrieli Global Scholar
+      - date: 2016
+        title: Royal Society University Research Fellowship
+        detail: extended in 2021
+      - date: 2011
+        title: Commendation for Excellence in a Doctoral Thesis
+        detail: Faculty of Science, University of Bristol
+      - date: 2007
+        title: SET Student of the Year
+        detail: Best undergraduate physics student in the UK
+      - date: 2007
+        title: Roger Taylor Award for Best Physics Student and Outstanding Physics Project Award
+        detail: University of Sussex
+
+  - heading: Publications
+    text: >
+      Over 70 journal articles, two review articles and one textbook. See the
+      [Publications](/publications/) page for a full list, or my
+      [Google Scholar](https://scholar.google.com/citations?user=ThaToWEAAAAJ) profile.
+
+  - heading: Research funding
+    entries:
+      - date: 2024 – 2034
+        title: Co-Investigator
+        detail: EPSRC Centre for Doctoral Training in Quantum Information Science and Technology
+      - date: 2023 – 2025
+        title: Co-Investigator
+        detail: "EPSRC grant: Software Enabling Early Quantum Advantage (SEEQA)"
+      - date: 2022 – 2024
+        title: Principal Investigator
+        detail: CIFAR Azrieli Global Scholar award
+      - date: 2021 – 2024
+        title: Principal Investigator
+        detail: "Royal Society University Research Fellowship extension: New Facets to Quantum Information"
+      - date: 2021 – 2023
+        title: Principal Investigator
+        detail: Royal Society Research Fellows Enhanced Research Expenses
+      - date: 2017 – 2020
+        title: Principal Investigator
+        detail: "EPSRC / Royal Society: Investigating Measurement Incompatibility in Quantum Theory"
+      - date: 2016 – 2021
+        title: Principal Investigator
+        detail: "Royal Society University Research Fellowship: Understanding and Harnessing Quantum Theory"
+
+  - heading: Highlights and media coverage
+    entries:
+      - date: 2025
+        title: Editor's Suggestion, Phys. Rev. A
+        detail: How to use arbitrary measuring devices to perform almost perfect measurements
+      - date: 2025
+        title: Editor's Suggestion, Phys. Rev. Lett.; Phys.org
+        detail: Speeding up quantum measurement using space-time trade-off
+      - date: 2021
+        title: Editor's Suggestion, PRX Quantum
+        detail: The operational significance of the quantum resource theory of Buscemi nonlocality
+      - date: 2019
+        title: Editor's Suggestion, Phys. Rev. Lett.
+        detail: Robustness of measurement, discrimination games and accessible information
+      - date: 2018
+        title: Phys.org
+        detail: Multidimensional quantum entanglement with large-scale integrated optics
+      - date: 2017
+        title: Editor's Suggestion, Phys. Rev. Lett.
+        detail: All entangled states can demonstrate non-classical teleportation
+      - date: 2015
+        title: "APS Physics Synopsis: Putting Quantum Systems to Work"
+        detail: Extractable work from correlations
+      - date: 2013
+        title: BBC News, Nature, IFLScience, Physics World, and others
+        detail: Quantum Cheshire Cats
+      - date: ""
+        title: Quanta Magazine
+        detail: Interviewed for “New Quantum Theory Could Explain the Flow of Time”
+      - date: 2012
+        title: "APS Physics Viewpoint: The Smallest Thermal Machines"
+        detail: Virtual qubits, virtual temperatures, and the foundations of thermodynamics
+      - date: 2012
+        title: "Nature News & Views: Thermodynamics: The fridge gate"
+        detail: The smallest refrigerators can reach maximal efficiency
+      - date: 2011
+        title: J. Phys. A Highlight of 2011
+        detail: Physics within a quantum reference frame
+      - date: 2010
+        title: New Scientist, Scientific American, ScienceNOW, Science News, and others
+        detail: "How small can thermal machines be? The smallest possible refrigerator"
+
+  - heading: Selected talks
+    entries:
+      - date: 2024
+        title: Invited talk
+        detail: Prosperity Partnership Meeting, Royal Society, London
+      - date: 2024
+        title: Contributed talk
+        detail: QIP 2024, Taipei
+      - date: 2022
+        title: Invited talk
+        detail: Kyoto Workshop on Quantum Information, Computation and Foundations
+      - date: 2022
+        title: Contributed talk
+        detail: QIP 2022, Caltech (given by Patryk Lipka-Bartosik)
+      - date: 2022
+        title: Lecturer
+        detail: Solstice of Foundations Summer School, Zurich
+      - date: 2021
+        title: Invited talk
+        detail: Quantum Information Days, Warsaw
+      - date: 2018
+        title: Keynote talk
+        detail: Modern Topics in Quantum Information, Natal
+      - date: 2018
+        title: Invited talk
+        detail: Quantum Correlations Week, Singapore
+      - date: 2017
+        title: Invited talk
+        detail: Quantum Correlations in Space and Time, Bad Honnef
+      - date: 2017
+        title: Invited talk
+        detail: Trustworthy Quantum Information, Paris
+      - date: 2016
+        title: Invited talk
+        detail: Quantum and Beyond, Växjö
+      - date: 2015
+        title: Invited talk
+        detail: Quantum Correlations, Contextuality, and All That Again, Natal
+      - date: 2014
+        title: Invited talk
+        detail: Thermodynamics in the Quantum Regime, Berlin
+      - date: 2013
+        title: Invited tutorial and talk
+        detail: "Mathematical Horizons for Quantum Physics: Information-Theoretic Approaches to Thermodynamics, Singapore"
+      - date: 2012
+        title: Invited talk
+        detail: Physics of Information, Information in Physics, and the Demon, Okazaki
+      - date: 2011
+        title: Invited talk
+        detail: Quantum Information and Foundations of Thermodynamics, Zurich
+
+  - heading: Teaching
+    entries:
+      - date: 2024 –
+        title: Quantum Mechanics
+        detail: 2nd-year core unit, University of Bristol
+      - date: 2019 – 2024
+        title: Quantum Mechanics I
+        detail: University of Bristol
+      - date: 2016 –
+        title: Quantum Information Theory
+        detail: 4th-year unit, University of Bristol (jointly with Noah Linden)
+      - date: 2016 –
+        title: Final-year project supervision
+        detail: over 25 MSci students
+      - date: ""
+        title: Student teaching award nominations
+        detail: "Inspiring teaching: 2019/20 (×2), 2020/21 (×4), 2023/24 (×2), 2024/25 (×2), 2025/26. Outstanding supervision: 2016/17, 2020/21."
+    footer: See also the [Teaching](/teaching/) page for lecture notes, and the [Group](/group/) page for PhD students and postdocs.
+
+  - heading: Academic service
+    entries:
+      - date: 2019 –
+        title: Editor
+        detail: Quantum journal
+      - date: 2017 –
+        title: Advisory Panel member
+        detail: Journal of Physics A
+      - date: 2017 –
+        title: Member
+        detail: EPSRC Peer Review Associate College
+      - date: 2018, 2020
+        title: Board member
+        detail: Bristol Quantum Information Technology (BQIT)
+      - date: 2018
+        title: Programme committee
+        detail: "Q-turn: Changing Paradigms in Quantum Science; AQIS 2018"
+
+  - heading: Outreach
+    entries:
+      - date: 2018
+        title: Café Scientifique, Royal Society, London
+        detail: "How the quantum world makes the impossible possible"
+      - date: 2010
+        title: Institute of Physics outreach day
+        detail: Elmlea Junior School, Bristol

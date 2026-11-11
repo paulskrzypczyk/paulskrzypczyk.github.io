@@ -1,0 +1,74 @@
+# -----------------------------------------------------------------------------
+# Group page data  (rendered by _pages/group.md)
+#
+# Each section has a heading and a list of members. Sections with no members
+# are not shown. Within a section, current members (current: true) are listed
+# first, then former members in the order written here (newest first works best).
+#
+# Fields per member (only `name` is required):
+#   name:      Full name
+#   url:       personal website (makes the name a link)
+#   years:     e.g. "2021 – 2025" or "2023 –"
+#   current:   true for current members
+#   thesis:    PhD thesis / project title
+#   co:        co-supervisor(s)
+#   now:       where they went next / current position
+#   note:      anything else (fellowships, etc.)
+# -----------------------------------------------------------------------------
+
+- section: Postdoctoral researchers
+  members:
+    - name: Chung-Yun Hsieh
+      years: "2023 –"            # TODO check start year
+      current: true
+      note: Leverhulme Early Career Fellow (from 2024)
+
+- section: PhD students
+  members:
+    - name: Chris Corlett
+      current: true
+      years: ""                  # TODO
+    - name: James Byrne
+      current: true
+      years: ""                  # TODO
+    - name: Sohyun Park
+      current: true
+      years: ""                  # TODO
+
+    - name: Ben Stratton
+      url: https://benstratton6.github.io/quantumResources
+      years: "– 2026"            # TODO start year
+      thesis: ""                 # TODO
+      now: ""                    # TODO
+    - name: Ben Jones
+      url: https://jenjaminbones.github.io
+      years: "– 2024"            # TODO start year
+      thesis: ""                 # TODO
+      now: ""                    # TODO
+    - name: Andrés Ducuara
+      years: "– 2022"            # TODO start year
+      thesis: ""                 # TODO
+      now: ""                    # TODO
+    - name: Patryk Lipka-Bartosik
+      years: "2017 – 2021"       # TODO check
+      thesis: ""                 # TODO
+      now: ""                    # TODO
+
+- section: Visitors
+  members: []
+  # - name: Example Visitor
+  #   years: "2024"
+  #   note: Visiting PhD student from University X
+
+- section: Master's students
+  members:
+    - name: Isabel Robinson
+      years: ""                  # TODO
+      note: MSc
+
+- section: Former project students who went on to a PhD
+  members: []
+  # - name: Example Student
+  #   years: "2020"
+  #   thesis: MSci project title
+  #   now: PhD, University of Y

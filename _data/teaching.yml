@@ -1,0 +1,68 @@
+# -----------------------------------------------------------------------------
+# Teaching page data  (rendered by _pages/teaching.md)
+#
+# To add a course: copy one of the blocks under `courses:` and edit.
+#   status: current | past      (controls the small badge)
+#   links:  any number of {name, url} pairs; leave out `links` if none
+# -----------------------------------------------------------------------------
+
+courses:
+  - title: Quantum Mechanics
+    unit: From Classical to Modern Physics (2nd-year core unit)
+    institution: University of Bristol
+    years: 2024/25 – present
+    status: current
+    description: >
+      The quantum mechanics part of the second-year core physics unit: the quantum
+      description of a particle moving in one and three dimensions, from position,
+      momentum and the uncertainty principle through to the harmonic oscillator,
+      scattering and quantum mechanics in 3D. Taught as a flipped classroom, with
+      pre-recorded videos embedded in the notes and weekly problem classes.
+    links:
+      - name: Lecture notes
+        url: https://paulskrzypczyk.github.io/qm-lecturenotes-new/
+
+  - title: Quantum Mechanics I
+    institution: University of Bristol
+    years: 2019/20 – 2023/24
+    status: past
+    description: >
+      A first course in quantum mechanics, focussing on the mechanics of a single
+      particle in one dimension: superposition, the uncertainty principle, the
+      time-independent Schrödinger equation, square wells, the harmonic oscillator
+      and scattering. The notes, with links to the lecture videos, remain online.
+    links:
+      - name: Lecture notes
+        url: https://paulskrzypczyk.github.io/qm-lecture-notes/
+
+  - title: Quantum Information Theory
+    unit: 4th-year unit, taught jointly with Noah Linden
+    institution: University of Bristol
+    years: 2016 – present
+    status: current
+    description: >
+      An introduction to quantum information theory for final-year undergraduates.
+
+# -----------------------------------------------------------------------------
+# Textbook
+# -----------------------------------------------------------------------------
+
+book:
+  title: Semidefinite Programming in Quantum Information Science
+  authors: Paul Skrzypczyk and Daniel Cavalcanti
+  publisher: IOP Publishing, IOP Series in Quantum Technology
+  year: 2023
+  description: >
+    A graduate-level introduction to semidefinite programming and its use across
+    quantum information science. After reviewing the theory of SDPs, the book
+    shows how they can be used to address state, measurement and channel
+    estimation and discrimination, entanglement detection and quantification,
+    quantum distance measures, and measurement incompatibility. It assumes only
+    basic linear algebra and quantum information.
+  links:
+    - name: IOP Publishing
+      url: https://iopscience.iop.org/book/mono/978-0-7503-3343-6
+    - name: Sample chapter (PDF)
+      url: https://github.com/paulskrzypczyk/SDPBook/blob/main/SDP-book-sample-chapter.pdf
+    - name: Companion repository
+      url: https://github.com/paulskrzypczyk/SDPBook

@@ -1,0 +1,9 @@
+{% assign m = include.m %}
+<li class="person">
+  <span class="person-name">{% if m.url and m.url != "" %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</span>
+  {% if m.years and m.years != "" %}<span class="person-years">{{ m.years }}</span>{% endif %}
+  {% if m.thesis and m.thesis != "" %}<span class="person-detail">Thesis: <i>{{ m.thesis }}</i></span>{% endif %}
+  {% if m.co and m.co != "" %}<span class="person-detail">Co-supervised with {{ m.co }}</span>{% endif %}
+  {% if m.note and m.note != "" %}<span class="person-detail">{{ m.note }}</span>{% endif %}
+  {% if m.now and m.now != "" %}<span class="person-detail person-now">Now: {{ m.now }}</span>{% endif %}
+</li>
