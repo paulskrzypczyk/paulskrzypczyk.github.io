@@ -11,6 +11,8 @@
 #   any other @article                 -> published journal article
 #   highlight containing "Review"      -> also counted as a review article
 #
+# The per-year counts include everything: articles, reviews, books and preprints.
+#
 # Journal names are normalised with JOURNAL_ALIASES so that small spelling
 # differences in the .bib file don't split a journal into two rows.
 # -----------------------------------------------------------------------------
@@ -60,6 +62,7 @@ module Jekyll
         elsif type == "article"
           if journal =~ /\Aarxiv/i
             preprints += 1
+            years[year] += 1 if year > 0
           else
             articles += 1
             reviews += 1 if entry[:highlight].to_s =~ /review/i

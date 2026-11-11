@@ -123,75 +123,50 @@ a.btn-link {
 }
 
 /* Publication summary (Publications page) */
-.pubstats { margin: 0.5rem 0 2.5rem; }
-.pubstats-tiles { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.5rem; }
+.pubstats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.25rem 0 2rem;
+}
 .pubstats-tile {
-  flex: 1 1 8rem;
+  flex: 1 1 7rem;
   border: 1px solid rgba(128, 128, 128, 0.25);
   border-radius: 6px;
-  padding: 0.7rem 0.9rem;
+  padding: 0.6rem 0.85rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
-.pubstats-num { font-size: 1.9rem; line-height: 1.1; font-weight: 300; color: var(--global-text-color); font-variant-numeric: tabular-nums; }
-.pubstats-label { font-size: 0.85rem; color: var(--global-text-color-light); }
-.pubstats-sub { font-size: 0.8rem; color: var(--global-text-color-light); font-weight: 400; }
-.pubstats-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
-.pubstats-heading { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--global-text-color-light); margin-bottom: 0.6rem; }
-.pubstats-heading .pubstats-sub { text-transform: none; letter-spacing: 0; }
+.pubstats-num { font-size: 1.7rem; line-height: 1.1; font-weight: 300; color: var(--global-text-color); font-variant-numeric: tabular-nums; }
+.pubstats-label { font-size: 0.82rem; color: var(--global-text-color-light); }
+.pubstats-sub { font-size: 0.78rem; color: var(--global-text-color-light); }
 
-.pubstats-journals {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.85rem;
-  td { padding: 2px 0; border: none; vertical-align: middle; }
-  .pj-name { white-space: nowrap; padding-right: 0.75rem; color: var(--global-text-color); }
-  .pj-bar { width: 100%; }
-  .pj-bar span {
-    display: block;
-    height: 8px;
-    min-width: 2px;
-    background: var(--global-theme-color);
-    border-radius: 0 4px 4px 0;
-  }
-  .pj-count { padding-left: 0.6rem; text-align: right; color: var(--global-text-color-light); font-variant-numeric: tabular-nums; }
-}
-
+.pubstats-tile-chart { flex: 2.5 1 14rem; padding-bottom: 0.4rem; }
 .pubstats-years {
   display: flex;
-  align-items: stretch;
+  align-items: flex-end;
   gap: 2px;
-  height: 150px;
+  height: 46px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.35);
-  padding-top: 1.4rem;
   .py-col {
     position: relative;
     flex: 1 1 0;
+    height: 100%;
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
     outline: none;
     cursor: default;
   }
-  .py-bar-wrap { flex: 1; display: flex; align-items: flex-end; }
   .py-bar {
     width: 100%;
     background: var(--global-theme-color);
-    border-radius: 4px 4px 0 0;
-    min-height: 0;
-  }
-  .py-label {
-    position: absolute;
-    bottom: -1.3rem;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 0.72rem;
-    color: var(--global-text-color-light);
-    white-space: nowrap;
+    border-radius: 3px 3px 0 0;
   }
   .py-tip {
     display: none;
     position: absolute;
-    top: -1.4rem;
+    bottom: calc(100% + 4px);
     left: 50%;
     transform: translateX(-50%);
     font-size: 0.75rem;
@@ -203,13 +178,17 @@ a.btn-link {
     border: 1px solid rgba(128, 128, 128, 0.35);
     z-index: 2;
   }
-  .py-col:hover .py-bar, .py-col:focus .py-bar { opacity: 0.75; }
+  .py-col:hover .py-bar, .py-col:focus .py-bar { opacity: 0.7; }
   .py-col:hover .py-tip, .py-col:focus .py-tip { display: block; }
 }
-.pubstats-panels .pubstats-panel:last-child { padding-bottom: 1.4rem; }
-
-@media (max-width: 768px) {
-  .pubstats-panels { grid-template-columns: 1fr; }
+.pubstats-axis {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.15rem;
+  span { color: var(--global-text-color-light); }
+  .pubstats-label { font-size: 0.72rem; }
 }
 
 /* Talks page: responsive YouTube embed */

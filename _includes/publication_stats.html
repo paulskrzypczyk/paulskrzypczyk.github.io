@@ -23,7 +23,7 @@
   </div>
   {% endif %}
   <div class="pubstats-tile pubstats-tile-chart">
-    <div class="pubstats-years" role="img" aria-label="Publications per year, {{ ps.first_year }} to {{ ps.last_year }}">
+    <div class="pubstats-years" role="img" aria-label="Papers, reviews, books and preprints per year, {{ ps.first_year }} to {{ ps.last_year }}">
       {% for y in ps.years %}
       {% assign h = y.count | times: 100.0 | divided_by: ps.max_per_year %}
       <div class="py-col" tabindex="0">
