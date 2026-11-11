@@ -1,0 +1,45 @@
+{% comment %}
+  Summary of publications, generated at build time from _bibliography/papers.bib
+  by _plugins/publication_stats.rb. Nothing here needs editing by hand.
+{% endcomment %}
+{% assign ps = site.data.publication_stats %}
+{% if ps %}
+<div class="pubstats">
+  <div class="pubstats-tiles">
+    <div class="pubstats-tile"><span class="pubstats-num">{{ ps.articles }}</span><span class="pubstats-label">journal articles{% if ps.reviews > 0 %}<br><span class="pubstats-sub">incl. {{ ps.reviews }} review{% if ps.reviews != 1 %}s{% endif %}</span>{% endif %}</span></div>
+    <div class="pubstats-tile"><span class="pubstats-num">{{ ps.n_journals }}</span><span class="pubstats-label">journals</span></div>
+    {% if ps.books > 0 %}<div class="pubstats-tile"><span class="pubstats-num">{{ ps.books }}</span><span class="pubstats-label">book{% if ps.books != 1 %}s{% endif %}</span></div>{% endif %}
+    {% if ps.preprints > 0 %}<div class="pubstats-tile"><span class="pubstats-num">{{ ps.preprints }}</span><span class="pubstats-label">preprint{% if ps.preprints != 1 %}s{% endif %}</span></div>{% endif %}
+  </div>
+
+  <div class="pubstats-panels">
+    <div class="pubstats-panel">
+      <h3 class="pubstats-heading">By journal</h3>
+      <table class="pubstats-journals">
+        {% for j in ps.journals %}
+        {% assign w = j.count | times: 100.0 | divided_by: ps.max_journal %}
+        <tr>
+          <td class="pj-name">{{ j.name }}</td>
+          <td class="pj-bar"><span style="width: {{ w }}%"></span></td>
+          <td class="pj-count">{{ j.count }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+
+    <div class="pubstats-panel">
+      <h3 class="pubstats-heading">Per year <span class="pubstats-sub">(articles and books)</span></h3>
+      <div class="pubstats-years" role="img" aria-label="Number of publications per year, {{ ps.first_year }} to {{ ps.last_year }}">
+        {% for y in ps.years %}
+        {% assign h = y.count | times: 100.0 | divided_by: ps.max_per_year %}
+        <div class="py-col" tabindex="0">
+          <span class="py-tip">{{ y.year }}: {{ y.count }}</span>
+          <div class="py-bar-wrap"><div class="py-bar" style="height: {{ h }}%"></div></div>
+          <span class="py-label">{% assign off = y.year | minus: ps.first_year | modulo: 4 %}{% if off == 0 %}{{ y.year }}{% endif %}</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

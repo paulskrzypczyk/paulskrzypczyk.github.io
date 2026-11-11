@@ -8,6 +8,8 @@ nav: true
 nav_order: 1
 ---
 
+{% include publication_stats.html %}
+
 <div class="publications">
 
 {% for y in page.years %}

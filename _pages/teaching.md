@@ -2,9 +2,9 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Lecture notes, my textbook on semidefinite programming, and slides from talks.
+description: Lecture notes and my textbook on semidefinite programming.
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 {% assign t = site.data.teaching %}
@@ -40,26 +40,3 @@ nav_order: 3
     {% for l in b.links %}<a class="btn-link" href="{{ l.url }}">{{ l.name }} <i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a>{% endfor %}
   </p>
 </div>
-
-<h2 class="section-heading">Talks</h2>
-
-<p>Slides from selected seminars and conference talks. All slides are also collected on <a href="https://github.com/paulskrzypczyk/Talks">GitHub</a>.</p>
-
-<ul class="talk-list">
-{% for talk in site.data.talks %}
-  <li>
-    <span class="talk-year">{{ talk.year }}</span>
-    <div class="talk-body">
-      <span class="talk-title">{{ talk.title }}</span>
-      <span class="talk-event">{{ talk.event | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
-      {% if talk.papers %}<span class="talk-papers">Based on:
-        {% for p in talk.papers %}<a href="{{ p.url }}"><i>{{ p.title }}</i></a>{% unless forloop.last %}; {% endunless %}{% endfor %}
-      </span>{% endif %}
-      <span class="entry-links">
-        <a class="btn-link" href="{{ talk.slides }}"><i class="fa-solid fa-file-pdf"></i> Slides</a>
-        {% if talk.video %}<a class="btn-link" href="{{ talk.video }}"><i class="fa-brands fa-youtube"></i> Video</a>{% endif %}
-      </span>
-    </div>
-  </li>
-{% endfor %}
-</ul>
