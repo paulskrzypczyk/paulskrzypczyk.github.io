@@ -785,5 +785,180 @@ a.btn-link:hover {
     flex-basis: auto;
   }
 }
+/* Publication summary (Publications page) */
+.pubstats {
+  margin: 0.5rem 0 2.5rem;
+}
+
+.pubstats-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.pubstats-tile {
+  flex: 1 1 8rem;
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 6px;
+  padding: 0.7rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.pubstats-num {
+  font-size: 1.9rem;
+  line-height: 1.1;
+  font-weight: 300;
+  color: var(--global-text-color);
+  font-variant-numeric: tabular-nums;
+}
+
+.pubstats-label {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+}
+
+.pubstats-sub {
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  font-weight: 400;
+}
+
+.pubstats-panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.pubstats-heading {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.6rem;
+}
+
+.pubstats-heading .pubstats-sub {
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.pubstats-journals {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.pubstats-journals td {
+  padding: 2px 0;
+  border: none;
+  vertical-align: middle;
+}
+.pubstats-journals .pj-name {
+  white-space: nowrap;
+  padding-right: 0.75rem;
+  color: var(--global-text-color);
+}
+.pubstats-journals .pj-bar {
+  width: 100%;
+}
+.pubstats-journals .pj-bar span {
+  display: block;
+  height: 8px;
+  min-width: 2px;
+  background: var(--global-theme-color);
+  border-radius: 0 4px 4px 0;
+}
+.pubstats-journals .pj-count {
+  padding-left: 0.6rem;
+  text-align: right;
+  color: var(--global-text-color-light);
+  font-variant-numeric: tabular-nums;
+}
+
+.pubstats-years {
+  display: flex;
+  align-items: stretch;
+  gap: 2px;
+  height: 150px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+  padding-top: 1.4rem;
+}
+.pubstats-years .py-col {
+  position: relative;
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  cursor: default;
+}
+.pubstats-years .py-bar-wrap {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+.pubstats-years .py-bar {
+  width: 100%;
+  background: var(--global-theme-color);
+  border-radius: 4px 4px 0 0;
+  min-height: 0;
+}
+.pubstats-years .py-label {
+  position: absolute;
+  bottom: -1.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.72rem;
+  color: var(--global-text-color-light);
+  white-space: nowrap;
+}
+.pubstats-years .py-tip {
+  display: none;
+  position: absolute;
+  top: -1.4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.75rem;
+  white-space: nowrap;
+  padding: 0 0.35rem;
+  border-radius: 3px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  z-index: 2;
+}
+.pubstats-years .py-col:hover .py-bar, .pubstats-years .py-col:focus .py-bar {
+  opacity: 0.75;
+}
+.pubstats-years .py-col:hover .py-tip, .pubstats-years .py-col:focus .py-tip {
+  display: block;
+}
+
+.pubstats-panels .pubstats-panel:last-child {
+  padding-bottom: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .pubstats-panels {
+    grid-template-columns: 1fr;
+  }
+}
+/* Talks page: responsive YouTube embed */
+.video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin: 1rem 0 0.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(128, 128, 128, 0.1);
+}
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 
 /*# sourceMappingURL=main.css.map */
