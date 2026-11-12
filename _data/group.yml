@@ -8,6 +8,7 @@
 # Fields per member (only `name` is required):
 #   name:      Full name
 #   url:       personal website (makes the name a link)
+#   scholar:   Google Scholar profile (adds a Scholar icon after the name)
 #   years:     e.g. "2021 – 2025" or "2023 –"
 #   current:   true for current members
 #   thesis:    PhD thesis / project title
@@ -43,12 +44,14 @@
       years: "2024 – 2027"
       co: Prof. Noah Linden
     - name: Chris Corlett
+      scholar: https://scholar.google.com/citations?user=0RA3A30AAAAJ
       url: https://research-information.bris.ac.uk/en/persons/chris-r-corlett/
       current: true
       years: "2023 – 2027"
       co: Prof. Noah Linden
 
     - name: Benjamin Stratton
+      scholar: https://scholar.google.com/citations?user=u6v0KGYAAAAJ
       url: https://benstratton6.github.io/benjaminstratton/
       years: "2022 – 2026"
       co: Dr Chung-Yun Hsieh
@@ -56,6 +59,7 @@
       thesis_url: https://research-information.bris.ac.uk/en/studentTheses/the-more-the-merrier/
       now: Quantum error correction theorist, Oxford Quantum Circuits
     - name: Benjamin Jones
+      scholar: https://scholar.google.com/citations?user=-vXlmzIAAAAJ
       url: https://jenjaminbones.github.io/index.html
       years: "2020 – 2024"
       co: Prof. Noah Linden
@@ -70,6 +74,7 @@
       now: Research Fellow, Nanyang Technological University, Singapore (group of Mile Gu)
       now_url: https://www.cqt.sg/people/andres-ducuara/
     - name: Patryk Lipka-Bartosik
+      scholar: https://scholar.google.com/citations?user=hloPUAkAAAAJ
       years: "2017 – 2021"       # TODO check
       thesis: "Resource Theories and their Applications in Quantum Thermodynamics and Nonlocality"
       thesis_url: https://research-information.bris.ac.uk/en/studentTheses/resource-theories-and-their-applications-in-quantum-thermodynamic/

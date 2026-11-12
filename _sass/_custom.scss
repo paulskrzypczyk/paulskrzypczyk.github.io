@@ -90,6 +90,7 @@ a.btn-link {
   &:last-child { border-bottom: none; }
 }
 .person-name { font-weight: 500; margin-right: 0.6rem; }
+.person-icon { margin-right: 0.6rem; font-size: 0.9rem; color: var(--global-text-color-light); &:hover { color: var(--global-theme-color); } }
 .person-years { color: var(--global-text-color-light); font-size: 0.9rem; }
 .person-detail { display: block; font-size: 0.9rem; color: var(--global-text-color-light); }
 .group-footnote { margin-top: 2.5rem; font-size: 0.95rem; color: var(--global-text-color-light); }
