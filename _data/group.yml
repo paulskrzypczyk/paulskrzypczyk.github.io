@@ -11,8 +11,10 @@
 #   years:     e.g. "2021 – 2025" or "2023 –"
 #   current:   true for current members
 #   thesis:    PhD thesis / project title
+#   thesis_url: link to the thesis (makes the title a link)
 #   co:        co-supervisor(s)
 #   now:       where they went next / current position
+#   now_url:   link for the current position (e.g. staff page)
 #   note:      anything else (fellowships, etc.)
 # -----------------------------------------------------------------------------
 
@@ -35,24 +37,31 @@
       current: true
       years: ""                  # TODO
 
-    - name: Ben Stratton
-      url: https://benstratton6.github.io/quantumResources
+    - name: Benjamin Stratton
+      url: https://benstratton6.github.io/benjaminstratton/
       years: "– 2026"            # TODO start year
-      thesis: ""                 # TODO
-      now: ""                    # TODO
-    - name: Ben Jones
-      url: https://jenjaminbones.github.io
+      thesis: "The More the Merrier: Resource Preservation and Enhancement in Quantum Resource Theories"
+      thesis_url: https://research-information.bris.ac.uk/en/studentTheses/the-more-the-merrier/
+      now: Quantum error correction theorist, Oxford Quantum Circuits
+    - name: Benjamin Jones
+      url: https://jenjaminbones.github.io/index.html
       years: "– 2024"            # TODO start year
-      thesis: ""                 # TODO
-      now: ""                    # TODO
+      thesis: "Contemporary Quantum Resources: Steering, Incompatibility, Coherence and Entanglement"
+      thesis_url: https://research-information.bris.ac.uk/en/studentTheses/contemporary-quantum-resources/
+      now: Postdoctoral researcher in quantum computing, Freie Universität Berlin (group of Jens Eisert)
+      now_url: https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/team/postdocs/jones/index.html
     - name: Andrés Ducuara
       years: "– 2022"            # TODO start year
-      thesis: ""                 # TODO
-      now: ""                    # TODO
+      thesis: "Quantum Resource Theories: Operational Tasks and Information-Theoretic Quantities"
+      thesis_url: https://research-information.bris.ac.uk/en/studentTheses/quantum-resource-theories/
+      now: Research Fellow, Nanyang Technological University, Singapore (group of Mile Gu)
+      now_url: https://www.cqt.sg/people/andres-ducuara/
     - name: Patryk Lipka-Bartosik
       years: "2017 – 2021"       # TODO check
-      thesis: ""                 # TODO
-      now: ""                    # TODO
+      thesis: "Resource Theories and their Applications in Quantum Thermodynamics and Nonlocality"
+      thesis_url: https://research-information.bris.ac.uk/en/studentTheses/resource-theories-and-their-applications-in-quantum-thermodynamic/
+      now: Assistant Professor, Center for Theoretical Physics, Polish Academy of Sciences, Warsaw
+      now_url: https://www.cft.edu.pl/pracownik/dr-patryk-lipka-bartosik/
 
 - section: Visitors
   members: []
