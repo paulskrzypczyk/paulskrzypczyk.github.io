@@ -4,7 +4,7 @@ permalink: /talks/
 title: Talks
 description: Recordings and slides from seminars and conference talks.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 {% assign yt = site.data.talks_config %}

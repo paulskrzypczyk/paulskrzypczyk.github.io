@@ -4,7 +4,7 @@ permalink: /group/
 title: Group
 description: Current and former PhD students, postdocs and visitors.
 nav: true
-nav_order: 3
+nav_order: 1
 ---
 
 {% for s in site.data.group %}
