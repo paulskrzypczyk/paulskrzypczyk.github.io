@@ -82,6 +82,15 @@
       now: Assistant Professor, Center for Theoretical Physics, Polish Academy of Sciences, Warsaw
       now_url: https://www.cft.edu.pl/pracownik/dr-patryk-lipka-bartosik/
 
+- section: Master's students
+  members:
+    - name: Izzy Robinson
+      years: "2022 – 2025"
+      note: MScR
+      thesis: "Thinking Both Inside and Outside of the Box: Extending the Power of Extended Wigner's Friend Scenarios"
+      thesis_url: https://research-information.bris.ac.uk/en/studentTheses/thinking-both-inside-and-outside-of-the-box/
+      now: MSc in Science Communication, University of Sheffield
+
 - section: Visitors
   members:
     - name: Snigdh Sabharwal
@@ -94,15 +103,6 @@
       scholar: https://scholar.google.com/citations?user=o5U2Jo8AAAAJ
       years: "2023"
       note: 3-month research visit, as a PhD student of Prof. Renato Renner, ETH Zurich
-
-- section: Master's students
-  members:
-    - name: Izzy Robinson
-      years: "2022 – 2025"
-      note: MScR
-      thesis: "Thinking Both Inside and Outside of the Box: Extending the Power of Extended Wigner's Friend Scenarios"
-      thesis_url: https://research-information.bris.ac.uk/en/studentTheses/thinking-both-inside-and-outside-of-the-box/
-      now: MSc in Science Communication, University of Sheffield
 
 - section: Former project students who went on to a PhD
   members: []
