@@ -96,9 +96,12 @@
 
 - section: Master's students
   members:
-    - name: Isabel Robinson
-      years: ""                  # TODO
-      note: MSc
+    - name: Izzy Robinson
+      years: "2022 – 2025"
+      note: MScR
+      thesis: "Thinking Both Inside and Outside of the Box: Extending the Power of Extended Wigner's Friend Scenarios"
+      thesis_url: https://research-information.bris.ac.uk/en/studentTheses/thinking-both-inside-and-outside-of-the-box/
+      now: MSc in Science Communication, University of Sheffield
 
 - section: Former project students who went on to a PhD
   members: []
