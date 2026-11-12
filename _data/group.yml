@@ -22,9 +22,9 @@
 - section: Postdoctoral researchers
   members:
     - name: Chung-Yun Hsieh
-      years: "2023 –"            # TODO check start year
+      years: "2022 –"
       current: true
-      note: Leverhulme Early Career Fellow (from 2024)
+      note: Leverhulme Early Career Fellow (2024 – 2027)
 
 - section: PhD students
   members:
@@ -75,7 +75,7 @@
       now_url: https://www.cqt.sg/people/andres-ducuara/
     - name: Patryk Lipka-Bartosik
       scholar: https://scholar.google.com/citations?user=hloPUAkAAAAJ
-      years: "2017 – 2021"       # TODO check
+      years: "2017 – 2021"
       thesis: "Resource Theories and their Applications in Quantum Thermodynamics and Nonlocality"
       thesis_url: https://research-information.bris.ac.uk/en/studentTheses/resource-theories-and-their-applications-in-quantum-thermodynamic/
       now: Assistant Professor, Center for Theoretical Physics, Polish Academy of Sciences, Warsaw
