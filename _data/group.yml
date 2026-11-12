@@ -28,13 +28,24 @@
 - section: PhD students
   members:
     - name: Chris Corlett
+      url: https://research-information.bris.ac.uk/en/persons/chris-r-corlett/
       current: true
+      co: Prof. Noah Linden
       years: ""                  # TODO
     - name: James Byrne
+      url: https://www.bristol.ac.uk/people/person/James-Byrne-68bec5c1-9f51-4e8a-b4c6-c31dc8b41b65/
       current: true
+      co: Prof. Noah Linden
       years: ""                  # TODO
     - name: Sohyun Park
+      url: https://research-information.bris.ac.uk/en/persons/sohyun-park/
       current: true
+      co: Prof. Sandu Popescu FRS
+      years: ""                  # TODO
+    - name: Dan Travers
+      url: https://research-information.bris.ac.uk/en/persons/dan-travers/
+      current: true
+      co: Prof. Noah Linden
       years: ""                  # TODO
 
     - name: Benjamin Stratton
@@ -51,7 +62,7 @@
       now: Postdoctoral researcher in quantum computing, Freie Universität Berlin (group of Jens Eisert)
       now_url: https://www.physik.fu-berlin.de/en/einrichtungen/ag/ag-eisert/team/postdocs/jones/index.html
     - name: Andrés Ducuara
-      years: "– 2022"            # TODO start year
+      years: "2017 – 2022"
       thesis: "Quantum Resource Theories: Operational Tasks and Information-Theoretic Quantities"
       thesis_url: https://research-information.bris.ac.uk/en/studentTheses/quantum-resource-theories/
       now: Research Fellow, Nanyang Technological University, Singapore (group of Mile Gu)
