@@ -82,10 +82,17 @@
       now_url: https://www.cft.edu.pl/pracownik/dr-patryk-lipka-bartosik/
 
 - section: Visitors
-  members: []
-  # - name: Example Visitor
-  #   years: "2024"
-  #   note: Visiting PhD student from University X
+  members:
+    - name: Snigdh Sabharwal
+      scholar: https://scholar.google.com/citations?user=ftA4GrYAAAAJ
+      years: "2025"
+      note: 3-month research visit
+      now: Postdoctoral researcher, ICEPP, University of Tokyo
+    - name: Ladina Hausmann
+      url: https://qit.ethz.ch/people/person-detail.MjI1NzI2.TGlzdC8yMDQwLDgzMTQzOTE4MA==.html
+      scholar: https://scholar.google.com/citations?user=o5U2Jo8AAAAJ
+      years: "2023"
+      note: 3-month research visit, as a PhD student of Prof. Renato Renner, ETH Zurich
 
 - section: Master's students
   members:
