@@ -708,6 +708,15 @@ a.btn-link:hover {
   margin-right: 0.6rem;
 }
 
+.person-icon {
+  margin-right: 0.6rem;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+.person-icon:hover {
+  color: var(--global-theme-color);
+}
+
 .person-years {
   color: var(--global-text-color-light);
   font-size: 0.9rem;
