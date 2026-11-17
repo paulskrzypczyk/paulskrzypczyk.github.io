@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Lecture notes and my textbook on semidefinite programming.
+description: Lecture notes, my textbook on semidefinite programming, and some writing on teaching.
 nav: true
 nav_order: 4
 ---
@@ -28,6 +28,23 @@ nav_order: 4
   </div>
 {% endfor %}
 </div>
+
+{% comment %} Writing on teaching: any blog post (in _posts/) with `tags: [teaching]` is listed here automatically. {% endcomment %}
+{% assign teaching_posts = site.posts | where_exp: "p", "p.tags contains 'teaching'" %}
+{% if teaching_posts.size > 0 %}
+<h2 class="section-heading">On teaching</h2>
+
+<div class="entry-list">
+{% for p in teaching_posts %}
+  <div class="entry">
+    <h3 class="entry-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+    <p class="entry-meta">Essay · {{ p.date | date: "%B %Y" }}</p>
+    {% if p.description %}<p>{{ p.description }}</p>{% endif %}
+    <p class="entry-links"><a class="btn-link" href="{{ p.url | relative_url }}">Read</a></p>
+  </div>
+{% endfor %}
+</div>
+{% endif %}
 
 <h2 class="section-heading">Textbook</h2>
 

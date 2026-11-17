@@ -203,3 +203,29 @@ a.btn-link {
   background: rgba(128, 128, 128, 0.1);
   iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 }
+
+/* Blog posts (e.g. the flipped-classroom essay, linked from Teaching) */
+.post-header .post-meta {
+  color: var(--global-text-color-light);
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+}
+.post-content {
+  h2 {
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: var(--global-theme-color);
+    margin-top: 2.2rem;
+    margin-bottom: 0.9rem;
+  }
+  li { margin-bottom: 0.5rem; }
+  li > p { margin-bottom: 0.5rem; }
+  a em, a strong { color: inherit; }  /* keep italic/bold text inside links in the link colour */
+}
+.post-figure {
+  max-width: 520px;
+  margin: 1.5rem auto 0.5rem;
+  text-align: center;
+  img { max-width: 100%; height: auto; }
+  .caption { margin-bottom: 0.5rem; }
+}
