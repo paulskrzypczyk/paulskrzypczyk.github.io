@@ -910,4 +910,42 @@ a.btn-link:hover {
   border: 0;
 }
 
+/* Blog posts (e.g. the flipped-classroom essay, linked from Teaching) */
+.post-header .post-meta {
+  color: var(--global-text-color-light);
+  font-size: 0.875rem;
+  margin-bottom: 2rem;
+}
+
+.post-content h2 {
+  font-size: 1.35rem;
+  font-weight: 400;
+  color: var(--global-theme-color);
+  margin-top: 2.2rem;
+  margin-bottom: 0.9rem;
+}
+.post-content li {
+  margin-bottom: 0.5rem;
+}
+.post-content li > p {
+  margin-bottom: 0.5rem;
+}
+.post-content a em, .post-content a strong {
+  color: inherit;
+}
+.post-content { /* keep italic/bold text inside links in the link colour */ }
+
+.post-figure {
+  max-width: 520px;
+  margin: 1.5rem auto 0.5rem;
+  text-align: center;
+}
+.post-figure img {
+  max-width: 100%;
+  height: auto;
+}
+.post-figure .caption {
+  margin-bottom: 0.5rem;
+}
+
 /*# sourceMappingURL=main.css.map */
